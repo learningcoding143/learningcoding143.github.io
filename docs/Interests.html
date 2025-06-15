@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
     <title>Document</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 <body class="min-h-screen bg-blue-900 flex flex-col justify-between">
 
-     <nav class="bg-blue-800 text-white px-6 py-6 shadow-md ">
+    <nav class="bg-blue-900 text-white px-6 py-6 shadow-md ">
     <div class="max-w-7xl mx-auto flex items-center justify-center">
      
-      <a href="index.html" class="absolute left-0 text-4xl font-bold hover:underline"> Ethan's Site</a>
+      <a href="index.html" class="absolute left-0 text-4xl font-bold hover:text-gray-400 transition-colors duration-300"> Ethan's Site</a>
 
       <div class="space-x-4 text-xl">
-        <a href="index.html" class="hover:underline">Home</a>
-        <a href="about.html" class="hover:underline">About</a>
-        <a href="Interests.html" class="hover:underline">Interests</a>
-        <a href="hobbies.html" class="hover:underline">Hobbies</a>
+        <a href="index.html" class="tab-inactive">Home</a>
+        <a href="about.html" class="tab-inactive">About</a>
+        <a href="Interests.html" class="tab-active">Interests</a>
+        <a href="hobbies.html" class="tab-inactive">Hobbies</a>
       </div>
 
     </div>
@@ -38,8 +40,22 @@
   </div>
 </main>
 
-<footer class="text-center border border-black p-4 text-sm text-white">
-    Socials placeholder
+<footer class="text-center border border-black p-4 text-sm text-white space-x-4">
+   
+    <a href="https://github.com/learningcoding143" target="_blank" class="text-white hover:text-gray-400">
+    <i class="fab fa-github fa-2x"></i>
+    </a>
+    
+   
+    <a href="https://www.instagram.com/ethan_hoong/" target="_blank " class="text-white hover:text-gray-400" >
+    <i class="fab fa-instagram fa-2x"></i>
+    </a>
+   
+   
+    <a href="https://www.facebook.com/ethan.hoong.9/" target="_blank " class="text-white hover:text-gray-400" >
+    <i class="fab fa-facebook fa-2x"></i>
+    </a>
+
 </footer>
 </body>
 </html>

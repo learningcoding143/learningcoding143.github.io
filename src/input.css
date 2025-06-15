@@ -1,1 +1,13 @@
-@import "tailwindcss"
+@import "tailwindcss";
+/** @type {import('tailwindcss').Config} */
+
+@layer components {
+    
+    .tab-active {
+        @apply hover:text-gray-400 font-extrabold border-4 p-2 border-white hover:border-gray-400 transition-colors duration-300;
+    }
+
+    .tab-inactive {
+        @apply hover:text-gray-400 text-gray-200 transition-colors duration-300 font-bold
+    }
+}
